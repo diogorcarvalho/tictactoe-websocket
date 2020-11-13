@@ -72,6 +72,7 @@ function WsProvider({ children }) {
 
   return (
     <WsContext.Provider value={{
+      websocket,
       context,
       enterRoom,
       leaveRoom,
