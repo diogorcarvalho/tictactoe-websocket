@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div id="usernamebox" class="border">
+    <div class="title">Qual o seu nome?</div>
+    <input type="text" id="username">
+    <button onclick="setUserName()">Enviar</button>
+  </div>
+
+  <div id="table" class="border" hidden>
+    <div id="tablebar" class="tablebar">...</div>
+    <div class="table">
+      <div class="row">
+        <div id="index-0" onclick="mark(0)" style="border-bottom: 2px solid white;border-right: 2px solid white;"></div>
+        <div id="index-1" onclick="mark(1)" style="border-bottom: 2px solid white;"></div>
+        <div id="index-2" onclick="mark(2)" style="border-bottom: 2px solid white;border-left: 2px solid white;"></div>
+      </div>
+      <div class="row">
+        <div id="index-3" onclick="mark(3)" style="border-bottom: 2px solid white;border-right: 2px solid white;"></div>
+        <div id="index-4" onclick="mark(4)" style="border-bottom: 2px solid white;"></div>
+        <div id="index-5" onclick="mark(5)" style="border-bottom: 2px solid white;border-left: 2px solid white;"></div>
+      </div>
+      <div class="row">
+        <div id="index-6" onclick="mark(6)" style="border-right: 2px solid white;"></div>
+        <div id="index-7" onclick="mark(7)"></div>
+        <div id="index-8" onclick="mark(8)" style="border-left: 2px solid white;"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
